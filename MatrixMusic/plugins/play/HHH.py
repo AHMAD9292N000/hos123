@@ -13,13 +13,13 @@ from MatrixMusic import app
     filters.command(["الاوامر"],""))
 async def italy(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/a25271d31dd6e1bca849f.jpg",
+        photo=f"https://telegra.ph/file/337d1a71061c0ad6c22ee.jpg",
         caption=f"""✅ **مرحبا بك عزيزي** {message.from_user.mention}
      
 ✅ **اليك قائمة اوامر سورس حـسـام ♬**
 •𝅼▬▭࣪▬•| 𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀 |•▬▭࣪▬•
 ✅ **لـعـرض كـيـبـورد الأعــضــاء .**
-»»»»»»  /hossam  ««««hossam«« .
+»»»»»»  /Y Z N   ««««Y Z N«« .
 •▬▭࣪▬•| 𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀 |•▬▭࣪▬•
 **1 ← اوامـر الـمـجـمـوعـات .**
 **2 ← اوامـر الـقـنـوات .**
@@ -40,7 +40,7 @@ async def italy(client: Client, message: Message):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 Y Z N", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -70,7 +70,7 @@ async def italy(_, query: CallbackQuery):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 Y Z N", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -100,7 +100,7 @@ async def italy(_, query: CallbackQuery):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 Y Z N", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -131,7 +131,7 @@ async def italy(_, query: CallbackQuery):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 Y Z N", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -176,7 +176,7 @@ async def italy(_, query: CallbackQuery):
                         "◁ الـبـوت ▷", callback_data=f"italybot"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 Y Z N", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -192,7 +192,7 @@ async def ayamr(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "𝑯𝑶𝑺𝑺𝑨𝑴 𝑨𝑳 𝑯𝑶𝑳𝑨𝑵𝑫𝒀 ✶ ✶🇳🇱", url=f"https://t.me/H_OS_S_AM"), 
+                        "Y Z N", url=f"https://t.me/CZCRR"), 
                 ],[               
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
