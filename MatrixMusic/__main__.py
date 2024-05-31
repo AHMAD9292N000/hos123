@@ -42,7 +42,7 @@ async def init():
     try:
         await Zelzaly.stream_call("https://telegra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("ميوزك حسام").info(
+        LOGGER("ميوزك يزن").info(
             "خطأ .. قم بفتح المكالمة في مجموعة السجل الخاصه بك\n\nجارِ ايقاف بوت الميوزك . . ."
         )
         exit()
@@ -53,7 +53,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("ميوزك حسام").info("جارِ ايقاف بوت الميوزك . . .")
+    LOGGER("ميوزك  ايقاف بوت الميوزك . . .")
 
 
 if __name__ == "__main__":
