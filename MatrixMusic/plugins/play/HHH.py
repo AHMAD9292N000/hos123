@@ -16,10 +16,10 @@ async def italy(client: Client, message: Message):
         photo=f"https://telegra.ph/file/337d1a71061c0ad6c22ee.jpg",
         caption=f"""✅ **مرحبا بك عزيزي** {message.from_user.mention}
      
-✅ **اليك قائمة اوامر سورس حـسـام ♬**
+✅ **اليك قائمة اوامر سورس يزن ♬**
 •𝅼▬▭࣪▬•| 𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀 |•▬▭࣪▬•
 ✅ **لـعـرض كـيـبـورد الأعــضــاء .**
-»»»»»»  /Y Z N   ««««Y Z N«« .
+»»»»»»  /YZN   ««««YZN«« .
 •▬▭࣪▬•| 𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀 |•▬▭࣪▬•
 **1 ← اوامـر الـمـجـمـوعـات .**
 **2 ← اوامـر الـقـنـوات .**
@@ -147,7 +147,7 @@ async def italy(_, query: CallbackQuery):
 •▬▭࣪▬•| 𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀 |•▬▭࣪▬•
 **- لعرض كليشه السورس اكتب :** `سورس` .
 **- لعرض مين في الكول اليك الامر  :** `مين في الكول` .
-**- لزخرفه عربي او انجلش اكتب  :** `فه واسم الزخرفه مثال زخرفه hossam .` .
+**- لزخرفه عربي او انجلش اكتب  :** `فه واسم الزخرفه مثال زخرفه يزن .` .
 **- لعرض بوت الحذف اكتب   :** `بوت حذف` .
 **- لعمل كت او تويت اليك الامر  :** `كت او تويت` .
 **- لعرض مطور البوت اكتب :** `المطور` .
@@ -187,7 +187,7 @@ async def italy(_, query: CallbackQuery):
 #كول باك المطورين
 @app.on_callback_query(filters.regex("italydev"))
 async def ayamr(_, query: CallbackQuery):
-   await query.edit_message_caption(caption =f"""[ٓ♡ | 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑺𝑶𝑼𝑹𝑪𝑬 𝐻𝑂𝑆𝑆𝐴𝑀  .](https://t.me/UU_GR)\n\n[♡ | 𝐻𝑂𝑆𝑆𝐴𝑀  𝑻𝑯𝑬 𝑩𝑬𝑺𝑻 𝑺𝑶𝑼𝑹𝑪𝑬 𝑶𝑵 𝑻𝑬𝑳𝑬 .](https://t.me/UU_GR)\n\n[♡ | 𝑭𝑶𝑳𝑳𝑶𝑾 𝑻𝑯𝑬 𝑩𝑼𝑻𝑻𝑶𝑵𝑺 𝑩𝑬𝑳𝑶𝑾 .](https://t.me/UU_GR)""",
+   await query.edit_message_caption(caption =f"""[ٓ♡ | 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑺𝑶𝑼𝑹𝑪𝑬 𝐻𝑂𝑆𝑆𝐴𝑀  .](https://t.me/F_U_01)\n\n[♡ | Y Z N  𝑻𝑯𝑬 𝑩𝑬𝑺𝑻 𝑺𝑶𝑼𝑹𝑪𝑬 𝑶𝑵 𝑻𝑬𝑳𝑬 .](https://t.me/F_U_01)\n\n[♡ | 𝑭𝑶𝑳𝑳𝑶𝑾 𝑻𝑯𝑬 𝑩𝑼𝑻𝑻𝑶𝑵𝑺 𝑩𝑬𝑳𝑶𝑾 .](https://t.me/CZCRR0)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
