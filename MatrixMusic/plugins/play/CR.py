@@ -21,7 +21,7 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/337d1a71061c0ad6c22ee.jpg",
-        caption=f"""W𝐞𝐥𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐡𝐨𝐬𝐬𝐚𝐦 𝐦𝐮𝐬𝐢𝐜""",
+        caption=f"""W𝐞𝐥𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 Y Z N 𝐦𝐮𝐬𝐢𝐜""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -54,15 +54,15 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["المطور حسام"])
+    command(["المطور يزن"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("H_OS_S_AM")
+    usr = await client.get_chat("CZCRR")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"معلومات مطور السورس\n\n‍ ¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\n𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", 
+    await message.reply_photo(photo,       caption=f"معلومات مطور السورس\n\n‍ ¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\n𝑺𝑶𝑼𝑹𝑪𝑬 Y Z N", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
